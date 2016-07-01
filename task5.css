@@ -1,0 +1,153 @@
+body{
+	padding:0px;
+	margin:0px;
+	background-color:Gainsboro;
+	width:100%;
+}
+.header{
+	
+	height:100px;
+	background-color:black;
+	margin-top:0px;
+	padding: 0px 0 0 20px ;
+	position: relative;
+	clear:both;
+	
+}
+.header>image {
+	top: 0px;
+	left:0px;
+	position:absolute
+	left:200px;
+	
+}
+.navigation{
+	position:absolute;
+	bottom:30px;
+	right:0px;
+	width:auto;
+}
+
+.header li {
+	
+	float:left;
+	width:100px;
+	color：black;
+	
+}
+
+.article {
+	margin:20px 480px 20px 20px;
+	padding:20px;
+	background-color: white;
+	 box-shadow:3px 3px 0 gray; 
+}
+.article li {
+	list-style-type: none;
+}
+.pic{
+	margin:20px 480px 20px 20px;
+	padding:20px;
+	background-color: white;
+	box-shadow:3px 3px 0 gray; 
+	overflow: auto;
+}
+
+.pic div{
+	text-align:center;
+	border:1px solid black;
+	height:150px;
+	width: 120px;
+	display:inline-block;
+	float:left;
+	margin:10px;
+	/*clear:both;*/
+}
+
+aside{
+	margin:20px;
+	padding:20px;
+	background-color: white;
+	box-shadow:3px 3px 0 gray;
+	position: relative;
+	width:400px;
+	float:right;
+}
+.submitButton {
+	background-color:blue;
+	height:40px;
+	width:100%;
+	border-radius: 10px;
+	text-align:center;
+	font-size:20px;
+	color:white;
+	border: 0px;
+}
+.t p{
+	padding-left:170px;
+	margin:0px;
+	font-size: 10px;
+}
+.t {
+	margin:5px;
+}
+form .tips{
+	vertical-align: middle;
+	display: inline-block;
+	width:160px;
+	text-align:right;
+}
+
+form .tips2 {
+	vertical-align: top;
+	margin-top:5px;
+	display: inline-block;
+	width:160px;
+	text-align:right;
+}
+form input,textarea,select{
+	margin:5px;
+}
+
+form textarea {
+	width:200px;
+}
+
+.article table {
+	width:100%;
+	margin-right:20px;
+	border: 2px solid Gainsboro;
+	border-collapse:collapse;
+}
+
+.article th{
+	background-color: black;
+	color:white;
+}
+
+.sum {
+	background-color:Gainsboro;
+}
+
+
+.header a:link{
+	text-decoration: none;
+	color: white;
+}
+.header a:visited {
+ 	text-decoration: none;
+	color:gray;
+}
+.article a:link{
+	text-decoration: underline;
+	color: blue;
+}.article a:visited{
+	text-decoration: none;
+	color: red;
+}
+a:hover {
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+}
